@@ -214,7 +214,7 @@ func http_post() {
 
 	var logPrefix = "[TriggerId: " + parameters["triggerId"] + ", HostName: " + parameters["hostName"] + "]"
 
-	apiUrl := configParameters["jsm.api.url"] + "/v1/json/zabbix"
+	apiUrl := configParameters["jsm.api.url"] + "/jsm/ops/integration/v1/json/zabbix"
 	logger.Error("apiUrl: " + apiUrl)
 	target := "JSM"
 
