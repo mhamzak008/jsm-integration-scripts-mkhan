@@ -1,6 +1,6 @@
 {
   "apiKey": "<API_KEY>",
-  "baseUrl": "https://api.atlassian.com",
+  "baseUrl": "https://api.opsgeni.us",
   "logLevel": "DEBUG",
   "globalArgs": [],
   "globalFlags": {

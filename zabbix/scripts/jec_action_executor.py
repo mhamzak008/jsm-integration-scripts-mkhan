@@ -90,7 +90,7 @@ def main():
     logging.debug("Action: " + str(action))
 
     if alert_id:
-        alert_api_url = args['jsmUrl'] + "/jsm/ops/integration/v2/alerts/" + alert_id
+        alert_api_url = args['jsmUrl'] + "/v2/alerts/" + alert_id
         headers = {
             "Content-Type": "application/json",
             "Accept-Language": "application/json",
