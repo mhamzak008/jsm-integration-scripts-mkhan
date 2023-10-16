@@ -141,7 +141,7 @@ func configureLogger() log.Logger {
 	var logFilePath = parameters["logPath"]
 
 	if len(logFilePath) == 0 {
-		logFilePath = "/var/log/jsm/send2jsm.log"
+		logFilePath = "/var/log/jec/send2jsm.log"
 	}
 
 	var tmpLogger log.Logger
